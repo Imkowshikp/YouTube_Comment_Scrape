@@ -1,12 +1,12 @@
 class youtubeScrape():
     
-    
+    ID = " "
     
     def init(self):
         
         pass
 
-    def scrape_comments_with_replies(self):
+    def scrape_comments_with_replies(self, ID):
         
         global df
         
@@ -21,7 +21,7 @@ class youtubeScrape():
         import pandas as pd
 
 
-        ID = "JMUxmLyrhSk"
+        
 
         box = [["Name", "Comment", "Time", "Likes", "Reply Count"]]
 
